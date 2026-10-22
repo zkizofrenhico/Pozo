@@ -1,6 +1,6 @@
 // Guarda el juego en el teléfono para jugar sin internet.
 // Al publicar una versión nueva, cambiar VERSION para que los teléfonos la actualicen.
-const VERSION = "pozo-v1";
+const VERSION = "pozo-v2";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./icon-180.png", "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png"];
 
 self.addEventListener("install", (e) => {
