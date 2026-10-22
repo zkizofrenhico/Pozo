@@ -1,0 +1,28 @@
+EL POZO DE TRES TIEMPOS - App para el celular
+==============================================
+
+Estos archivos son la app. Hay que subirlos a un sitio web gratuito (GitHub Pages)
+y después instalarla desde Chrome. Se hace una sola vez, en unos 10 minutos.
+
+1. Crear una cuenta gratis en https://github.com (si no tenés).
+2. Arriba a la derecha: "+" > "New repository".
+   Nombre: pozo   ·   Marcá "Public"   ·   "Create repository".
+3. En la página nueva, tocá "uploading an existing file".
+   Subí estos 8 archivos (descomprimidos, no el .zip):
+   index.html, manifest.webmanifest, sw.js, icon-180.png, icon-192.png,
+   icon-512.png, icon-maskable-512.png, LEEME.txt
+   Abajo: "Commit changes".
+4. Entrá a "Settings" > "Pages". En "Branch" elegí "main" y carpeta "/ (root)". "Save".
+   Esperá uno o dos minutos.
+5. En el celular, abrí con Chrome:  https://TU-USUARIO.github.io/pozo/
+   (TU-USUARIO es tu nombre de usuario de GitHub).
+6. Menú de Chrome (los tres puntitos) > "Instalar app" o "Agregar a pantalla de inicio".
+
+Listo: queda el ícono del pozo en el teléfono. Abre en pantalla completa y funciona
+sin internet. Para que otra persona juegue, pasale el mismo link del paso 5.
+
+Notas
+- La partida de la app es aparte de la del link de Claude: se empieza de cero.
+- El repositorio es público: cualquiera con el link puede jugar y ver los archivos.
+- Para publicar una versión nueva: subí el index.html nuevo y en sw.js cambiá
+  "pozo-v1" por "pozo-v2" (y así cada vez), para que los teléfonos se actualicen.
